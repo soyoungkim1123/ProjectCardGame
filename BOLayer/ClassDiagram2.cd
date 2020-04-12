@@ -3,9 +3,44 @@
   <Class Name="BOLayer.Player">
     <Position X="2" Y="1.5" Width="3.75" />
     <TypeIdentifier>
-      <HashCode>AQAAAAACACAAAAEAAABCAAQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAACQCAgAAEAAABCAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="BOLayer.Card">
+    <Position X="6" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOLayer.Deck">
+    <Position X="9.25" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAiAAAAAAAAEAAAAAAEAAAEAA=</HashCode>
+      <FileName>Deck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOLayer.Hand">
+    <Position X="6" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAQACAgAAAQAAAAAAAAAAAAAAAAAUAA=</HashCode>
+      <FileName>Hand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BOLayer.Suit">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BOLayer.FaceValue">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAggAAAEAAEAIAAAAAFBAAAAAgAAAgAAEE=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -16,12 +16,14 @@ namespace BOLayer
             MakeDeck();
         }
 
+        // make a deck with special-joker card
         private void MakeDeck()
         {
             // there are 4 suits
             foreach (int s in Enum.GetValues(typeof(Suit)))
             {
                 // there are 13 cards per suit
+                // make a new card except joker
                 foreach (int v in Enum.GetValues(typeof(FaceValue)))
                 {
                     if(s != 4 && v != 13)
@@ -34,6 +36,7 @@ namespace BOLayer
                     }
                 }
             }
+            // Add joker card
             deck.Add(new Card((Suit)4, (FaceValue)13));
         }
 

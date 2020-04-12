@@ -18,7 +18,6 @@ namespace BOLayer
         public int Turn { get; set; }
         public string Tag { get; set; }
 
-        public Player() { }
         public Player(string name, string panelName, string cardSide, int cardWidth, int cardHeight, int cardLeft, string tag)
         {
             Name = name;

@@ -144,7 +144,9 @@ namespace Cards
 
         #endregion
 
+
         #region turn decision
+
         /// <summary>
         /// When player choose a card, turn will be decided based on the facevalue of cards
         /// </summary>
@@ -306,7 +308,9 @@ namespace Cards
         }
         #endregion
 
+
         #region game start
+
         /// <summary>
         /// Check player enter a name
         /// </summary>
@@ -436,7 +440,9 @@ namespace Cards
 
         #endregion
 
+
         #region playing
+
         /// <summary>
         /// show cards in the hand
         /// </summary>
@@ -719,7 +725,9 @@ namespace Cards
 
         #endregion
 
+
         #region Restart
+
         /// <summary>
         /// When game is over, shows the restart message and button
         /// </summary>
@@ -750,7 +758,9 @@ namespace Cards
         }
         #endregion
 
+
         #region functions
+
         /// <summary>
         /// which panel should be selected based on player
         /// </summary>
@@ -803,6 +813,7 @@ namespace Cards
             return DateTime.Now;
         }
         #endregion
+
     }
 
 
